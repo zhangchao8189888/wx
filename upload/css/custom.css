@@ -1,0 +1,60 @@
+
+/*树形结构*/
+.tree_l{float:left;width:100px;padding:20px 50px 20px 0px;}
+.search_r{margin:20px 0 0 150px;width:50;padding:20px;border-left:1px solid #cdcdcd;}
+.search{margin:auto;width:300px;}
+.search input[type=text]{margin:0px;}
+.search_list{margin-top:20px;}
+.contextMenu li{padding:0 10px !important;}
+.zTreeDemoBackground  .line{height:auto;}
+div#rMenu {position:absolute; visibility:hidden; top:0; background-color: #555;text-align: left;}
+div#rMenu ul li{
+    margin: 1px 0;
+    padding: 0 5px;
+    cursor: pointer;
+    list-style: none outside none;
+    background-color: #DFDFDF;
+}
+#rMenu ul{margin:0px;padding:0px;}
+.modal_list{width:300px;margin:auto;}
+.employ_list{width:500px;margin:auto;}
+.modal_list span{width:55px;height:33px;vertical-align: middle;display: inline-block;*display:inline;*zoom:1;}
+.modal_list input{vertical-align: middle;}
+.modal_btn{text-align: center;margin:20px 0;}
+.ztree li{margin-top:5px !important;} 
+.modal_btn input{margin:0 5px;}
+.modal_btn .close{float:none;opacity:1;font-weight: normal;}
+
+.label-info{
+background-color: #41BEDD;
+}
+.nobold{font-weight: normal;}
+.badge_success{color:#468847;}
+.badge_warning{color:#f89406;}
+.badge_danger{color:#999;}
+.badge_inverse{color:#333;}
+.handsontable .currentRow {
+    background-color: #e7e8ef;
+}
+.handsontable .currentCol {
+    background-color: #c7fbe8;
+}
+.handsontable .columnClick:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.btn-default {
+    background-color: #399bff;
+    color: #fff;
+}
+.btn-rounded {
+    border-radius: 999px;
+}
+.btn-info {
+    background-color: #51b7a3;
+    color: #fff;
+}
+.btn-danger {
+    background-color: #ef4836;
+    color: #fff;
+}

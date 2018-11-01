@@ -1,0 +1,360 @@
+2015/03/23 13:29:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "aboutasdasd" was not found.' in /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/actions/CViewAction.php:112
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/actions/CViewAction.php(123): CViewAction->resolveView('aboutasdasd')
+#1 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/actions/CAction.php(76): CViewAction->run()
+#2 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CController.php(308): CAction->runWithParams(Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#4 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CWebApplication.php(282): CController->run('page')
+#6 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page/view/...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/index.php(60): CApplication->run()
+#9 {main}
+REQUEST_URI=/fireflytest/site/page/view/aboutasdasd
+---
+2015/03/23 13:29:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "aaaae".' in /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CController.php(270): CController->missingAction('aaaae')
+#1 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CWebApplication.php(282): CController->run('aaaae')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CWebApplication.php(141): CWebApplication->runController('site/aaaae/view...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/index.php(60): CApplication->run()
+#5 {main}
+REQUEST_URI=/fireflytest/site/aaaae/view/aboutasdasd
+---
+2015/03/23 13:30:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "aaaae".' in /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CController.php(270): CController->missingAction('aaaae')
+#1 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CWebApplication.php(282): CController->run('aaaae')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CWebApplication.php(141): CWebApplication->runController('site/aaaae/view...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/index.php(59): CApplication->run()
+#5 {main}
+REQUEST_URI=/fireflytest/site/aaaae/view/aboutasdasd
+---
+2015/03/23 13:30:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "aaaae".' in /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CController.php(270): CController->missingAction('aaaae')
+#1 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CWebApplication.php(282): CController->run('aaaae')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CWebApplication.php(141): CWebApplication->runController('site/aaaae/view...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/index.php(59): CApplication->run()
+#5 {main}
+REQUEST_URI=/fireflytest/site/aaaae/view/aboutasdasd
+---
+2015/03/23 13:30:38 [error] [php] Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/fireflytest/index.php:20) (/Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/widgets/captcha/CCaptchaAction.php:281)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/widgets/captcha/CCaptchaAction.php(130): CCaptchaAction->renderImage()
+#1 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/actions/CAction.php(76): CCaptchaAction->run()
+#2 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CController.php(308): CCaptchaAction->runWithParams()
+#3 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CController.php(286): SiteController->runAction()
+#4 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#5 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CWebApplication.php(282): SiteController->run()
+#6 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/index.php(59): CWebApplication->run()
+REQUEST_URI=/fireflytest/site/captcha/v/550fa4fdceff8
+in /Applications/XAMPP/xamppfiles/htdocs/fireflytest/index.php (59)
+2015/03/23 13:31:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sssdfsf".' in /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CWebApplication.php(141): CWebApplication->runController('sssdfsf')
+#1 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/index.php(59): CApplication->run()
+#3 {main}
+REQUEST_URI=/fireflytest/sssdfsf
+---
+2015/03/23 13:31:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sssdfsf".' in /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CWebApplication.php(141): CWebApplication->runController('sssdfsf')
+#1 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/index.php(60): CApplication->run()
+#3 {main}
+REQUEST_URI=/fireflytest/sssdfsf
+---
+2015/03/23 13:31:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sssdfsf".' in /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CWebApplication.php(141): CWebApplication->runController('sssdfsf')
+#1 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/index.php(60): CApplication->run()
+#3 {main}
+REQUEST_URI=/fireflytest/sssdfsf
+---
+2015/03/23 13:31:29 [error] [php] Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/fireflytest/index.php:20) (/Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/widgets/captcha/CCaptchaAction.php:281)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/widgets/captcha/CCaptchaAction.php(130): CCaptchaAction->renderImage()
+#1 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/actions/CAction.php(76): CCaptchaAction->run()
+#2 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CController.php(308): CCaptchaAction->runWithParams()
+#3 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CController.php(286): SiteController->runAction()
+#4 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#5 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CWebApplication.php(282): SiteController->run()
+#6 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/index.php(60): CWebApplication->run()
+REQUEST_URI=/fireflytest/site/captcha/v/550fa5315514f
+in /Applications/XAMPP/xamppfiles/htdocs/fireflytest/index.php (60)
+2015/03/23 13:31:33 [error] [php] Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/fireflytest/index.php:20) (/Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/widgets/captcha/CCaptchaAction.php:281)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/widgets/captcha/CCaptchaAction.php(130): CCaptchaAction->renderImage()
+#1 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/actions/CAction.php(76): CCaptchaAction->run()
+#2 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CController.php(308): CCaptchaAction->runWithParams()
+#3 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CController.php(286): SiteController->runAction()
+#4 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#5 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CWebApplication.php(282): SiteController->run()
+#6 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/index.php(60): CWebApplication->run()
+REQUEST_URI=/fireflytest/site/captcha/v/550fa5356b280
+in /Applications/XAMPP/xamppfiles/htdocs/fireflytest/index.php (60)
+2015/03/23 13:31:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site111/contact".' in /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CWebApplication.php(141): CWebApplication->runController('site111/contact')
+#1 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/index.php(60): CApplication->run()
+#3 {main}
+REQUEST_URI=/fireflytest/site111/contact
+---
+2015/03/23 13:31:42 [error] [php] Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/fireflytest/index.php:20) (/Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/widgets/captcha/CCaptchaAction.php:281)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/widgets/captcha/CCaptchaAction.php(130): CCaptchaAction->renderImage()
+#1 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/actions/CAction.php(76): CCaptchaAction->run()
+#2 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CController.php(308): CCaptchaAction->runWithParams()
+#3 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CController.php(286): SiteController->runAction()
+#4 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#5 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CWebApplication.php(282): SiteController->run()
+#6 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/index.php(60): CWebApplication->run()
+REQUEST_URI=/fireflytest/site/captcha/v/550fa53ea6252
+in /Applications/XAMPP/xamppfiles/htdocs/fireflytest/index.php (60)
+2015/03/23 13:31:52 [error] [php] Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/fireflytest/index.php:20) (/Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/widgets/captcha/CCaptchaAction.php:281)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/widgets/captcha/CCaptchaAction.php(130): CCaptchaAction->renderImage()
+#1 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/actions/CAction.php(76): CCaptchaAction->run()
+#2 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CController.php(308): CCaptchaAction->runWithParams()
+#3 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CController.php(286): SiteController->runAction()
+#4 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#5 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CWebApplication.php(282): SiteController->run()
+#6 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/index.php(60): CWebApplication->run()
+REQUEST_URI=/fireflytest/site/captcha/v/550fa547e4b76
+in /Applications/XAMPP/xamppfiles/htdocs/fireflytest/index.php (60)
+2015/03/23 13:31:54 [error] [php] Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/fireflytest/index.php:20) (/Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/widgets/captcha/CCaptchaAction.php:281)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/widgets/captcha/CCaptchaAction.php(130): CCaptchaAction->renderImage()
+#1 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/actions/CAction.php(76): CCaptchaAction->run()
+#2 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CController.php(308): CCaptchaAction->runWithParams()
+#3 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CController.php(286): SiteController->runAction()
+#4 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#5 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CWebApplication.php(282): SiteController->run()
+#6 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/index.php(60): CWebApplication->run()
+REQUEST_URI=/fireflytest/site/captcha/v/550fa54a7d6c7
+in /Applications/XAMPP/xamppfiles/htdocs/fireflytest/index.php (60)
+2015/03/23 13:32:17 [error] [php] Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/fireflytest/index.php:20) (/Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/widgets/captcha/CCaptchaAction.php:281)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/widgets/captcha/CCaptchaAction.php(130): CCaptchaAction->renderImage()
+#1 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/actions/CAction.php(76): CCaptchaAction->run()
+#2 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CController.php(308): CCaptchaAction->runWithParams()
+#3 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CController.php(286): SiteController->runAction()
+#4 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#5 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CWebApplication.php(282): SiteController->run()
+#6 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/index.php(60): CWebApplication->run()
+REQUEST_URI=/fireflytest/site/captcha/v/550fa561508f7
+in /Applications/XAMPP/xamppfiles/htdocs/fireflytest/index.php (60)
+2015/03/23 13:32:18 [error] [php] Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/fireflytest/index.php:20) (/Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/widgets/captcha/CCaptchaAction.php:281)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/widgets/captcha/CCaptchaAction.php(130): CCaptchaAction->renderImage()
+#1 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/actions/CAction.php(76): CCaptchaAction->run()
+#2 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CController.php(308): CCaptchaAction->runWithParams()
+#3 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CController.php(286): SiteController->runAction()
+#4 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#5 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CWebApplication.php(282): SiteController->run()
+#6 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/index.php(60): CWebApplication->run()
+REQUEST_URI=/fireflytest/site/captcha/v/550fa5625af5c
+in /Applications/XAMPP/xamppfiles/htdocs/fireflytest/index.php (60)
+2015/03/23 13:33:57 [error] [php] Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/fireflytest/index.php:20) (/Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/widgets/captcha/CCaptchaAction.php:281)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/widgets/captcha/CCaptchaAction.php(130): CCaptchaAction->renderImage()
+#1 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/actions/CAction.php(76): CCaptchaAction->run()
+#2 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CController.php(308): CCaptchaAction->runWithParams()
+#3 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CController.php(286): SiteController->runAction()
+#4 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#5 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CWebApplication.php(282): SiteController->run()
+#6 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/index.php(59): CWebApplication->run()
+REQUEST_URI=/fireflytest/site/captcha/v/550fa5c542b85
+in /Applications/XAMPP/xamppfiles/htdocs/fireflytest/index.php (59)
+2015/03/23 13:49:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "index-test.php"。' in /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CWebApplication.php(141): CWebApplication->runController('index-test.php')
+#1 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/index.php(58): CApplication->run()
+#3 {main}
+REQUEST_URI=/fireflytest/index-test.php
+---
+2015/03/23 13:53:16 [error] [php] include(FController.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/YiiBase.php:427)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/include/controllers/SiteController.php(4): spl_autoload_call()
+#1 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CWebApplication.php(354): require()
+#2 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#3 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/index.php(54): CWebApplication->run()
+REQUEST_URI=/fireflytest/site/page/view/about
+in /Applications/XAMPP/xamppfiles/htdocs/fireflytest/include/controllers/SiteController.php (4)
+in /Applications/XAMPP/xamppfiles/htdocs/fireflytest/index.php (54)
+2015/03/23 13:53:22 [error] [php] include(FController.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/YiiBase.php:427)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/include/controllers/SiteController.php(4): spl_autoload_call()
+#1 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CWebApplication.php(354): require()
+#2 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#3 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/index.php(54): CWebApplication->run()
+REQUEST_URI=/fireflytest/site/index
+in /Applications/XAMPP/xamppfiles/htdocs/fireflytest/include/controllers/SiteController.php (4)
+in /Applications/XAMPP/xamppfiles/htdocs/fireflytest/index.php (54)
+2015/03/23 13:53:24 [error] [php] include(FController.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/YiiBase.php:427)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/include/controllers/SiteController.php(4): spl_autoload_call()
+#1 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CWebApplication.php(354): require()
+#2 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#3 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/index.php(54): CWebApplication->run()
+REQUEST_URI=/fireflytest/site/login
+in /Applications/XAMPP/xamppfiles/htdocs/fireflytest/include/controllers/SiteController.php (4)
+in /Applications/XAMPP/xamppfiles/htdocs/fireflytest/index.php (54)
+2015/03/23 13:53:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "l11" 动作.' in /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CController.php(270): CController->missingAction('l11')
+#1 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CWebApplication.php(282): CController->run('l11')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CWebApplication.php(141): CWebApplication->runController('site/l11')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/index.php(54): CApplication->run()
+#5 {main}
+REQUEST_URI=/fireflytest/site/l11
+---
+2015/03/23 13:54:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "sss"。' in /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CWebApplication.php(141): CWebApplication->runController('sss')
+#1 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/index.php(54): CApplication->run()
+#3 {main}
+REQUEST_URI=/fireflytest/sss
+---
+2015/03/23 13:54:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "login1" 动作.' in /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CController.php(270): CController->missingAction('login1')
+#1 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CWebApplication.php(282): CController->run('login1')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CWebApplication.php(141): CWebApplication->runController('site/login1')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/index.php(54): CApplication->run()
+#5 {main}
+REQUEST_URI=/fireflytest/site/login1
+---
+2015/03/23 13:55:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "contact1" 动作.' in /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CController.php(270): CController->missingAction('contact1')
+#1 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CWebApplication.php(282): CController->run('contact1')
+#2 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CWebApplication.php(141): CWebApplication->runController('site/contact1')
+#3 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/index.php(54): CApplication->run()
+#5 {main}
+REQUEST_URI=/fireflytest/site/contact1
+---
+2015/03/23 13:55:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "sites"。' in /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CWebApplication.php(141): CWebApplication->runController('sites')
+#1 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/index.php(54): CApplication->run()
+#3 {main}
+REQUEST_URI=/fireflytest/sites
+---
+2015/03/23 13:55:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "sites"。' in /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CWebApplication.php(141): CWebApplication->runController('sites')
+#1 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/index.php(54): CApplication->run()
+#3 {main}
+REQUEST_URI=/fireflytest/sites
+---
+2015/03/23 13:55:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "sites1"。' in /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CWebApplication.php(141): CWebApplication->runController('sites1')
+#1 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/index.php(54): CApplication->run()
+#3 {main}
+REQUEST_URI=/fireflytest/sites1
+---
+2015/03/23 13:55:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "sites1"。' in /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CWebApplication.php(141): CWebApplication->runController('sites1')
+#1 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/index.php(54): CApplication->run()
+#3 {main}
+REQUEST_URI=/fireflytest/sites1
+---
+2015/03/23 13:56:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "sites1"。' in /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CWebApplication.php(141): CWebApplication->runController('sites1')
+#1 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/index.php(54): CApplication->run()
+#3 {main}
+REQUEST_URI=/fireflytest/sites1
+---
+2015/03/23 13:56:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "sites1"。' in /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CWebApplication.php(141): CWebApplication->runController('sites1')
+#1 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/index.php(54): CApplication->run()
+#3 {main}
+REQUEST_URI=/fireflytest/sites1
+---
+2015/03/23 14:00:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "sites1"。' in /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CWebApplication.php(141): CWebApplication->runController('sites1')
+#1 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/index.php(54): CApplication->run()
+#3 {main}
+REQUEST_URI=/fireflytest/sites1
+---
+2015/03/23 14:00:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "sites1"。' in /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CWebApplication.php(141): CWebApplication->runController('sites1')
+#1 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/index.php(54): CApplication->run()
+#3 {main}
+REQUEST_URI=/fireflytest/sites1
+---
+2015/03/23 14:00:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "sites1"。' in /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CWebApplication.php(141): CWebApplication->runController('sites1')
+#1 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/index.php(54): CApplication->run()
+#3 {main}
+REQUEST_URI=/fireflytest/sites1
+---
+2015/03/23 14:00:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "sites1"。' in /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CWebApplication.php(141): CWebApplication->runController('sites1')
+#1 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/index.php(54): CApplication->run()
+#3 {main}
+REQUEST_URI=/fireflytest/sites1
+---
+2015/03/23 14:00:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "sites1"。' in /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/web/CWebApplication.php(141): CWebApplication->runController('sites1')
+#1 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/lib/yii-1.1.15/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/fireflytest/index.php(54): CApplication->run()
+#3 {main}
+REQUEST_URI=/fireflytest/sites1
+---

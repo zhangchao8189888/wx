@@ -1,0 +1,105 @@
+ul li{list-style: none;}
+.modal{top:5%;}
+.fillList{width:65%;margin:auto;}
+.tit{float:left;padding:4px 0px;width:40px;}
+.inputTxt{float:left;}
+.modal-footer{text-align:center;}
+.red{color:#f00;}
+.tips,.groupCount{text-align: center;display: block;padding:1em 0;}
+.groupCount select,#recommend{vertical-align: middle;margin:0px;width:120px;}
+.inputCom{margin-left:40px;}
+.inputCom div{width:45%;float:left;margin-bottom:5px;}
+.inputCom div span,.inputCom div font{float:left;display: block;}
+.nopadding .table{word-break:break-all;}
+.nopadding .table textarea, .uneditable-input{width:130px;}
+.tag_attr{width:60px;}
+.select2-drop{z-index: 999999;}
+/*图片打标签*/
+.tag_div_wapper{position:relative;}
+.tag_div_wapper .tag_ul_wapper {position: absolute;right: 0;top: 0;}
+.tag_div_wapper .tag_ul_wapper li {
+    background-color: #808080;
+    color: #FFFFFF;
+    height: 20px;
+    margin-bottom: 1px;
+    padding: 0 4px;
+}
+/*图片预览*/
+#layer_tag {
+    background-color: #FFFFFF;
+    border: 1px solid #808080;
+    display: none;
+    left: 350px;
+    padding-bottom: 5px;
+    position: fixed;
+    top: 10px;
+    width: 960px;
+    z-index: 999;
+}
+#layer_tag .layer_tag_inner {
+    padding: 30px 10px 0 50px;
+}
+.layer_tag_l {
+    float: left;
+    height: 450px;
+    width: 480px;
+}
+
+.layer_tag_l img {
+    height: 450px;
+    width: 480px;
+}
+#layer_tag .tag_close {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}
+
+#layer_tag .prev, #layer_tag .next {
+    background: url("../images/pic_20.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: block;
+    height: 100px;
+    position: absolute;
+    top: 200px;
+    width: 32px;
+}
+#layer_tag .prev {
+    left: 0;
+}
+#layer_tag .next {
+    background-position: -32px 0;
+    right: 0;
+}
+.layer_tag_r {
+    float: left;
+    margin-left: 30px;
+    width: 345px;
+}
+.layer_tag_r .ul_wapper {
+    height: 588px;
+    overflow-y: auto;
+}
+.layer_tag_r ul {
+    margin-bottom: 18px;
+}
+.layer_tag_r ul li {
+    background-color: #606263;
+    color: #FFFFFF;
+    cursor: pointer;
+    float: left;
+    font-size: 12px;
+    margin: 0 2px 2px 0;
+    padding: 4px 13px;
+}
+#tag_submit_btn{width:180px;margin:10px auto;}
+/*错误信息*/
+.colorRem{color:red;width:51%;margin:auto;}
+.designer_win{width:240px;margin:auto;text-align: center;}
+.designer_win .select2-container{width:80%;}
+#uploadBox .pic{text-align: center;padding:10px 0 0;}
+.nk_clear:after{clear: both;content: ".";display: block;height: 0;visibility: hidden;}
+.nk_clear{*zoom:1;}
+
+.layer_tag_r ul li.active {
+    background-color: #FF0000;
+}
